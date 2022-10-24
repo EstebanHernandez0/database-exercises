@@ -11,7 +11,7 @@ SELECT NULL FROM employees;
 	Tables dept_emp, dept_managers, employees, salaries, and titles have date type columns*/
 	
 /*What is the relationship between the employees and the departments tables? (Write this question and your answer in a comment)
-	They all have a primary key*/
+	The emp.no connects them all together*/
 	
 /*Show the SQL that created the dept_manager table. Write the SQL it takes to show this as your exercise solution.
 	SHOW CREATE TABLE dept_manager;*/

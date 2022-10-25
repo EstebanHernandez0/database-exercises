@@ -10,7 +10,7 @@ WHERE last_name LIKE 'E%e';
 
 -- Find all employees hired in the 90s and born on Christmas. Use datediff() function to find how many days they have been working at the company (Hint: You will also need to use NOW() or CURDATE()).
 
-SELECT hire_date, DATEDIFF(NOW(), hire_date)/365 AS age FROM employees
+SELECT hire_date, DATEDIFF(NOW(), hire_date) AS age FROM employees
 WHERE hire_date LIKE '199%' AND birth_date LIKE '%-12-25';
 	
 
